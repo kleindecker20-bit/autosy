@@ -1,0 +1,9 @@
+node_modules/
+ios/
+android/
+.gradle/
+*.xcworkspace
+*.xcodeproj/xcuserdata
+build/
+.DS_Store
+Thumbs.db
