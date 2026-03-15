@@ -61,8 +61,8 @@ workflows:
         script: |
           cd ios/App
           xcodebuild build \
-            -workspace "$XCODE_WORKSPACE" \
-            -scheme "$XCODE_SCHEME" \
+            -workspace "App.xcworkspace" \
+            -scheme "App" \
             -sdk iphonesimulator \
             -configuration Debug \
             CODE_SIGN_IDENTITY="" \
